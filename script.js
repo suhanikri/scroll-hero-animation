@@ -44,6 +44,7 @@ document.querySelectorAll(".counter").forEach(counter => {
 gsap.to(".hero-image", {
   y: -400,
   scale: 1.2,
+  filter: "brightness(0.7)",
   ease: "none",
   scrollTrigger: {
     trigger: ".hero",

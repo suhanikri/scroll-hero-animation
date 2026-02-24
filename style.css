@@ -72,11 +72,12 @@ body {
   width: 650px;
   max-width: 90%;
   z-index: 1;
+  transition: filter 0.3s ease;
   will-change: transform;
 }
 
 .spacer {
-  height: 200vh;
+  height: 120vh;
 }
 
 /* Responsive */
